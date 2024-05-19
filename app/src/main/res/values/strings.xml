@@ -5,4 +5,8 @@
     <string name="home">Home</string>
     <string name="favorite">Favorite</string>
     <string name="category">Category</string>
+    <string name="searching_icon">searching icon</string>
+    <string name="what_would_you_like_to_eat">What would you like to eat</string>
+    <string name="random_meal_image">random meal image</string>
+    <string name="over_popular_items">over popular items</string>
 </resources>
