@@ -12,6 +12,6 @@
     <string name="meal_image">Meal image</string>
     <string name="favorities_floating_button">Favorities floating button</string>
     <string name="category_beef">Category: Beef</string>
-    <string name="area_usa">Area: USA</string>
+    <string name="area">Area</string>
     <string name="instructions">Instructions</string>
 </resources>
