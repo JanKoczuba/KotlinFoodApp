@@ -9,4 +9,9 @@
     <string name="what_would_you_like_to_eat">What would you like to eat</string>
     <string name="random_meal_image">random meal image</string>
     <string name="over_popular_items">over popular items</string>
+    <string name="meal_image">Meal image</string>
+    <string name="favorities_floating_button">Favorities floating button</string>
+    <string name="category_beef">Category: Beef</string>
+    <string name="area_usa">Area: USA</string>
+    <string name="instructions">Instructions</string>
 </resources>

@@ -64,7 +64,7 @@
                 app:layout_constraintTop_toBottomOf="@id/header" />
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/random_meal"
+                android:id="@+id/random_meal_card"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_marginStart="25dp"
@@ -97,7 +97,7 @@
                 android:textSize="@dimen/_20ssp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@id/tv_would_like_to_eat"
-                app:layout_constraintTop_toBottomOf="@id/random_meal" />
+                app:layout_constraintTop_toBottomOf="@id/random_meal_card" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rec_view_meals_popular"

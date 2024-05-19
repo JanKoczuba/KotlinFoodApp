@@ -1,5 +1,6 @@
 package com.koczuba.kotlin_food_app.fragments
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -11,6 +12,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import com.bumptech.glide.Glide
 import com.koczuba.kotlin_food_app.R
+import com.koczuba.kotlin_food_app.activities.MealActivity
 import com.koczuba.kotlin_food_app.databinding.FragmentHomeBinding
 import com.koczuba.kotlin_food_app.pojo.MealDetail
 import com.koczuba.kotlin_food_app.pojo.RandomMealResponse
@@ -40,7 +42,16 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        observerRandomMeal();
+        observerRandomMeal()
+        onRandomMealClick()
+
+    }
+
+    private fun onRandomMealClick() {
+        binding.randomMealCard.setOnClickListener {
+            val intent = Intent(activity, MealActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun observerRandomMeal() {

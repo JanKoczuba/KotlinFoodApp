@@ -1,11 +1,11 @@
-package com.koczuba.kotlin_food_app
+package com.koczuba.kotlin_food_app.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.fragment.app.FragmentActivity
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.koczuba.kotlin_food_app.R
 import com.koczuba.kotlin_food_app.databinding.ActivityMainBinding
 
 
